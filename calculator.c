@@ -3,7 +3,7 @@
 
 int main (void)
 {
-    int mine = 2;
+    const int mine = 2;
     int points = get_int("How many points did your lose? ");
     if (points < mine)
     {
