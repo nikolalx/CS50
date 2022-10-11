@@ -3,7 +3,17 @@
 
 int main (void)
 {
-    int x = get_int("x: ");
-    int y = get_int("y: ");
-    printf("the sum is %i\n", x + y);
+    int points = get_int("How many points did your lose? ");
+    if (points < 2)
+    {
+        printf("youve lost viewer points than me\n");
+    }
+    else if (points > 2)
+    {
+        printf("you lost more points than me\n");
+    }
+    else
+    {
+        printf("weve done grate\n");
+    }
 }
