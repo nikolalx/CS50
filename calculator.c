@@ -3,13 +3,13 @@
 
 int main (void)
 {
-    const int mine = 2;
+    const int MINE = 2;
     int points = get_int("How many points did your lose? ");
-    if (points < mine)
+    if (points < MINE)
     {
         printf("youve lost viewer points than me\n");
     }
-    else if (points > mine)
+    else if (points > MINE)
     {
         printf("you lost more points than me\n");
     }
