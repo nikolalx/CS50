@@ -5,5 +5,5 @@ int main (void)
 {
     float regular = get_float("Regular price: ");
     float sale = regular * .85;
-    printf("Sale Price: )
+    printf("Sale Price: %.2f\n", sale);
 }
