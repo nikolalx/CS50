@@ -10,4 +10,4 @@ int main(void)
     float z = x / y;
 
     printf("%.50f\n", z);
-}
+} 
