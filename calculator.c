@@ -7,7 +7,7 @@ int main(void)
 
     float y = get_float("y: ");
 
-    float z = x / y;
+    float z = x + y;
 
-    printf("%.50f\n", z);
-} 
+    printf("%.3f\n", z);
+}
