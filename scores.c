@@ -9,9 +9,8 @@ int main(void)
 
     if(score1 > 0)
     {
-        int n = n++;
+        int n = n+1;
     }
-
 
     printf("Average %f\n", (score1 + score2 + score3) / (float) n);
 }
