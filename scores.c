@@ -4,14 +4,11 @@
 
 int main(void)
 {
-    int score1 = get_int("Score for first: ");
-    int score2 = get_int("Score for second: ");
-    int score3 = get_int("Score for third: ");
+    int scores[3];
 
-    if(score1 > 0 && score2 > 0 && score3 > 0)
-    {
-        int n = n++;
-    }
+    scores[0] = get_int("score: ");
+    scores[1] = get_int("score: ");
+    scores[2] = get_int("score: ");
 
-    printf("Average %f\n", (score1 + score2 + (float) score3));
+    printf("Average %f\n", (scores[0] + scores[1] + scores[2]));
 }
