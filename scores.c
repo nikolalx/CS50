@@ -7,6 +7,7 @@ int main(void)
     int score2 = get_int("Score for second: ");
     int score3 = get_int("Score for third: ");
 
+    for(int n = 0; n < 0;)
     int n = score1 + score2 + score3;
 
     printf("Average %f\n", (score1 + score2 + score3) / (float) n);
