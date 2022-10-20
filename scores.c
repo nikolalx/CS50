@@ -4,12 +4,13 @@
 
 int main(void)
 {
-    int scores[3];
+    int n = get_int("How manz results ?");
+    int scores[n];
 
-    for(int i = 0; i < 0; i++)
+    for(int i = 0; i < n; i++)
     {
         scores[i] = get_int("Score ");
     }
 
-    printf("Average %f\n", (scores[i] + scores[i] + scores[i]) / (float) i);
+    printf("Average %f\n", (scores[0] + scores[1] + scores[2]) / i);
 }
