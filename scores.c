@@ -10,8 +10,8 @@ int main(void)
 
     if(score1 > 0 && score2 > 0 && score3 > 0)
     {
-        int n = n+1;
+        int n = n++;
     }
 
-    printf("Average %f\n", (score1 + score2 + score3) / (float) n);
+    printf("Average %f\n", (score1 + score2 + (float) score3));
 }
