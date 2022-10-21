@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int n = get_int("How manz results ?");
+    int n = get_int("How many results ?");
     int scores[n];
 
     for(int i = 0; i < n; i++)
