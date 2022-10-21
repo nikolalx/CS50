@@ -11,7 +11,7 @@ int main(void)
 
 int string_length(string s)
 {
-    while (name[i] != '\0')
+    while (s[i] != '\0')
     {
         i++;
     }
