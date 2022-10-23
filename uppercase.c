@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 #include<string.h>
+#include<ctype.h>
 
 int main(void)
 {
@@ -9,7 +10,7 @@ int main(void)
 
     for(int i = 0, n = strlen(s); i < n; i++)
     {
-        if(s[i] >= 'a' && s[i] <= 'z')
+        if(islower(s[i]))
         {
             printf("%c", s[i] - 32);
         }
