@@ -7,7 +7,7 @@ int main(void)
     int n;
     do
     {
-        n = get_int("Width: ");
+        n = get_int("Heigth: ");
     }
 
     while(n < 1);
