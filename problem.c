@@ -16,7 +16,6 @@ int main(void)
     {
         for(int j = 0; j < n / n; j++)
         {
-            printf(" "), * n;
             printf("#");
             printf("  ");
             printf("#");
