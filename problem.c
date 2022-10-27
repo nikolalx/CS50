@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<cs50.h>
-
+#include<ma
 int main(void)
 {
     int n;
@@ -13,8 +13,6 @@ int main(void)
 
     for(int i = 0; i < n; i++)
     {
-        printf("\n");
-        
         for(int j = 0; j < n; j++)
         {
             printf("#");
