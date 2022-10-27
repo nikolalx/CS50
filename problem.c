@@ -14,7 +14,7 @@ int main(void)
 
     for(int i = 0; i < n / n; i++)
     {
-        for(int j = 0; j < n / n; j++)
+        for(int j = 0; j < n; j++)
         {
             printf("#  #");
         }
