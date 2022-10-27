@@ -3,10 +3,13 @@
 
 int main(void)
 {
+    int n;
     do
     {
-        int n = get_int("Width: ");
+        n = get_int("Width: ");
     }
 
-    while(in n = 0);
+    while(n < 1);
+
+    for(int i = 0; i < n; i++)
 }
