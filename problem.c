@@ -19,12 +19,5 @@ int main(void)
             printf("#  #");
         }
     }
-        for(int k = 0; k < n / n / n; k++)
-    {
-        for(int l = 0; l < n / n / n; l++)
-        {
-            printf("#  #");
-        }
-        printf("\n");
-    }
+    printf("\n");
 }
