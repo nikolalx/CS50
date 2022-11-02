@@ -12,17 +12,14 @@ int main(void)
 
     while(n < 1);
 
+    int z = n / n + 1;
+
     for(int i = 0; i < n / n; i++)
     {
-            printf("   #");
-            printf("  ");
+        for(int j = 0; j < z; j++)
+        {
             printf("#");
+            printf("\n");
     }
-                printf("\n");
-            for(int j = 0; j < n + 1; j++)
-            {
-                printf("  #");
-                printf("  ");
-                printf("#");
-            }
+    }
 }
