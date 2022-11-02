@@ -17,11 +17,12 @@ int main(void)
             printf("   #");
             printf("  ");
             printf("#");
-            printf("\n");
+    }
+                printf("\n");
             for(int j = 0; j < n + 1; j++)
+            {
                 printf("  #");
                 printf("  ");
                 printf("#");
             }
-     printf("\n");
 }
