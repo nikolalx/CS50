@@ -9,7 +9,7 @@ int main(void)
         {
             n = get_int("Size: ");
         }
-    while (n < 1);
+    while (n < 1);k
 
     for (int i = 0; i < n + 1; i++)
     {
