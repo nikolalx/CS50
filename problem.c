@@ -15,9 +15,12 @@ int main(void)
     for(int i = 0 + n - 1; i < n; i++)
     {
 
-        for(int j = 1 + n -1; j < n; j++)
-
         printf("#");
+        
+        for(int j = 1 + n -1; j < n; j++)
+        {
+        printf("#");
+        }
     }
     printf("\n");
 }
