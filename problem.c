@@ -16,11 +16,12 @@ int main(void)
     {
 
         printf("#");
-        
+    }
+
         for(int j = 1 + n -1; j < n; j++)
         {
         printf("#");
         }
-    }
+
     printf("\n");
 }
