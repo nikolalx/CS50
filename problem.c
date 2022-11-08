@@ -5,6 +5,7 @@
 int main(void)
 {
     int n;
+
     do
     {
         n = get_int("Heigth: ");
@@ -14,11 +15,10 @@ int main(void)
 
     for(int i = 0 + n - 1; i < n; i++)
     {
-
         printf("#");
     }
 
-        for(int j = 1 + n -1; j < n; j++)
+    for(int j = 1 + n -1; j < n; j++)
         {
         printf("#");
         }
