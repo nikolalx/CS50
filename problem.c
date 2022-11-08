@@ -24,6 +24,14 @@ int main(void)
         {
             printf("#");
         }
+        for(int k = 0; k < 2; k++)
+        {
+            printf(" ");
+        }
+        for(int l = 0; l < i; l++)
+        {
+            printf("#");
+        }
         printf("\n");
     }
 }
