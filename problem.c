@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int n;
+    int scores [n];
     do
     {
         n = get_int("Heigth: ");
