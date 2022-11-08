@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    float n;
+    trunc n;
     do
     {
         n = get_int("Heigth: ");
