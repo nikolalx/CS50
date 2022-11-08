@@ -12,7 +12,7 @@ int main(void)
 
     while(n < 1);
 
-    for(int i = n / n + 1; i < n; i++)
+    for(int i = n - n - 1; i < n; i++)
     {
             printf("#");
     }
