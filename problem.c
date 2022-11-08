@@ -12,11 +12,9 @@ int main(void)
 
     while(n < 1);
 
-    int z = 1;
-
-    for(int i = 0; i < n; i + z)
+    for(int i = 0; i < n; i++)
     {
-        for(int j = 0; j < n; j++)
+        for(int j = 1; j < n; j++)
         {
             printf("#");
         }
