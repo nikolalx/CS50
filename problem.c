@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int scores [n];
+    int n;
     do
     {
         n = get_int("Heigth: ");
@@ -12,9 +12,13 @@ int main(void)
 
     while(n < 1);
 
-    for(int i = n + n - 1; i < n; i++)
+    for(int i = 0 + n - 1; i < n; i++)
     {
             printf("#");
+    }
+    for(int j = 1 + n -1; j < n; j++)
+    {
+        printf("#");
     }
     printf("\n");
 }
